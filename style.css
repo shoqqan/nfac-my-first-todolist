@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+body{
+    min-height: 100vh;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    background-color: cornsilk;
+    padding: 1rem;
+}
+.main{
+    flex:1;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+
+
+.header__input{
+    width: 10rem;
+    height: 1.5rem;
+    padding: 4px;
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.todolist{
+    width: 10rem;
+    height: fit-content;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 1rem;
+    border-radius: 14px;
+}
+
